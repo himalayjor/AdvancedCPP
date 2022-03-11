@@ -1,6 +1,5 @@
 #include <iostream>
-#include <GLFW/glfw3.h>
-
+#include "GLFW/glfw3.h"
 using namespace std;
 
 int main() {
@@ -18,6 +17,9 @@ int main() {
     cout << sizeof(ff) << endl;
     cout << sizeof(dd) << endl;
     cout << sizeof(xx) << endl;
+
+    int a = glfwInit();
+    cout << a << endl;
 
     return 0;
 }
