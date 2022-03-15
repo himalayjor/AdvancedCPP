@@ -22,6 +22,6 @@ int main() {
     Print(5.5f);
 
     Array<std::string, 50> array;
-    
+
     return 0;
 }
