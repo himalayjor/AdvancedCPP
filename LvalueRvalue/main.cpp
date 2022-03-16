@@ -4,7 +4,7 @@ void PrintName(const std::string &name) {
     std::cout << "[l-value]" << name << std::endl;
 }
 
-void PrintName(const std::string &&name) {
+void PrintName(std::string &&name) {
     std::cout << "[r-value]" << name << std::endl;
 }
 
